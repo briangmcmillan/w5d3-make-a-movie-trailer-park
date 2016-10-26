@@ -44,7 +44,7 @@ class Movie {
     renderButton() {
         var grid = document.querySelector('#trailers')
         var col = document.createElement('div')
-        col.classList.add('col-sm-3')
+        col.classList.add('col-sm-6')
         var button = document.createElement('button')
         button.classList.add('btn', 'btn-danger', 'btn-lg', 'btn-block')
         button.innerHTML = this.name
