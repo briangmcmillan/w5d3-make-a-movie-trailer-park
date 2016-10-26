@@ -1,3 +1,6 @@
+$(document).ready(function() {
+    $("button").sparkle();
+})
 // 1. Make a class called Trailer that extends Movie
 class Trailer extends Movie {
 
